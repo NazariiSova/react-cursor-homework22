@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(247, 242, 242, 0.966);
+}
+
+
+
+.post {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: rgb(41, 41, 41);
+  color: aliceblue;
+  height: 400px;
+  width: 600px;
+}
+
+.post-header {
+  display: flex;
+  
+}
+
+.avatar {
+    max-height: 20px;
+  height: auto;
+  width: auto;
+  max-width: 20px;
+  border-radius: 50px;
+  margin: 5px 5px 5px 5px;
+}
+
+.firstName {
+  margin: 5px 5px 5px 5px;
+}
+
+
+
+.post-header-nickname{
+    font-size: 13px;
+    margin-top: 9px;
+    margin-left: 15px;
+color:dimgray;
+}
+
+.post-body {
+  justify-content: center;
+  text-align: center;
+}
+
+.content-text {
+  position: absolute;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.content-img {
+  max-width: 550px;
+  margin-top: 60px;
+  border-radius: 10px;
+  max-height: 250px;
+}
+
+
+.post-footer-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.container-icon {
+  margin-left: 100px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.icon-wrapper:last-child {
+  margin-right: 0;
+}
+
+.icon-count {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+
+
+.box {
+    width: 200px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.newPostAvatar, .newPostName, .newPostNickname, .newPostContent, .newPostPhoto  {
+margin-top: 40px;
+};
