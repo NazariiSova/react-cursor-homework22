@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux-cursor-homework22/static/css/main.de7cfc3b.css",
+    "main.js": "/redux-cursor-homework22/static/js/main.3768e9e3.js",
+    "index.html": "/redux-cursor-homework22/index.html",
+    "main.de7cfc3b.css.map": "/redux-cursor-homework22/static/css/main.de7cfc3b.css.map",
+    "main.3768e9e3.js.map": "/redux-cursor-homework22/static/js/main.3768e9e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de7cfc3b.css",
+    "static/js/main.3768e9e3.js"
+  ]
+}
