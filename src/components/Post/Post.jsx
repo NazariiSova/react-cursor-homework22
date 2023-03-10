@@ -1,5 +1,9 @@
 import "./Post.css";
 import { useState } from "react";
+import  comments50  from "../img/comments-50.png"
+import downloads50 from "../img/download-50.png"
+import heart50 from "../img/heart-50.png"
+import repeat50 from "../img/repeat-50.png"
 
 
 export const Post = ({ avatar, firstName, nickname, content, photo }) => {
@@ -45,13 +49,13 @@ export const Post = ({ avatar, firstName, nickname, content, photo }) => {
         <img className="content-img" src = {photo} alt="post photo"/>
       </div>
       <div className="container-icon">
-        <img className="icon" src="./../img/comments-50.png" onClick={incrementComments} />
+        <img className="icon" src={ comments50 } onClick={incrementComments} />
         <span>{comments}</span>
-        <img className="icon" src="repost_icon.png" onClick={incrementReposts} />
+        <img className="icon" src={ repeat50 } onClick={incrementReposts} />
         <span>{reposts}</span>
-        <img className="icon" src="like_icon.png" onClick={incrementLikes} />
+        <img className="icon" src={ heart50 } onClick={incrementLikes} />
         <span>{likes}</span>
-        <img className="icon" src="download_icon.png" onClick={incrementDownloads} />
+        <img className="icon" src={ downloads50 } onClick={incrementDownloads} />
         <span>{downloads}</span>
       </div>
     </div>
